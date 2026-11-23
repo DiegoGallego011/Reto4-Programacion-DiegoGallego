@@ -1,0 +1,21 @@
+2026-11-22 19:55:43 [INFO] Sistema Software FJ iniciado correctamente (almacenamiento en memoria).
+2026-11-22 19:55:43 [INFO] Cliente registrado: ID=CLI-001, Nombre='Laura Martínez'.
+2026-11-22 19:55:43 [ERROR] Registro de cliente rechazado (CLI-002): El correo 'andresruiz_sin_arroba.com' no tiene un formato válido.
+2026-11-22 19:55:43 [INFO] Servicio registrado: ID=SAL-01 | Sala 'Sala de Juntas Norte' para 12 personas (con proyector).
+2026-11-22 19:55:43 [ERROR] Registro de servicio rechazado: La capacidad de la sala (0) debe ser mayor a 0.
+2026-11-22 19:55:43 [INFO] Servicio registrado: ID=EQ-01 | Alquiler de Laptop ('Portátil Core i7'), depósito $50,000.
+2026-11-22 19:55:43 [INFO] Servicio registrado: ID=ASE-01 | Asesoría en Cloud nivel Senior ('Arquitectura Cloud').
+2026-11-22 19:55:43 [ERROR] Registro de servicio rechazado: La tarifa base 'gratis' no es un número válido. | Causa original: ValueError: could not convert string to float: 'gratis'
+2026-11-22 19:55:43 [INFO] Reserva RES-001 confirmada | Cliente: 'Laura Martínez' | Servicio: 'Sala de Juntas Norte' | Total: $208,845.00
+2026-11-22 19:55:43 [INFO] Cierre de transacción para la solicitud de reserva RES-001.
+2026-11-22 19:55:43 [INFO] Reserva RES-002 confirmada | Cliente: 'Laura Martínez' | Servicio: 'Portátil Core i7' | Total: $52,500.00
+2026-11-22 19:55:43 [INFO] Cierre de transacción para la solicitud de reserva RES-002.
+2026-11-22 19:55:43 [WARNING] Reserva RES-003 rechazada: Duración insuficiente (0.5 h). La reserva mínima es de 1 hora.
+2026-11-22 19:55:43 [INFO] Cierre de transacción para la solicitud de reserva RES-003.
+2026-11-22 19:55:43 [WARNING] Reserva RES-004 rechazada: El valor de horas 'dos' no es numérico. | Causa original: ValueError: could not convert string to float: 'dos'
+2026-11-22 19:55:43 [INFO] Cierre de transacción para la solicitud de reserva RES-004.
+2026-11-22 19:55:43 [INFO] Servicio ASE-01 ('Arquitectura Cloud') cambiado a NO DISPONIBLE.
+2026-11-22 19:55:43 [WARNING] Reserva RES-005 rechazada: El servicio 'Arquitectura Cloud' no está disponible en este momento.
+2026-11-22 19:55:43 [INFO] Cierre de transacción para la solicitud de reserva RES-005.
+2026-11-22 19:55:43 [INFO] Reserva RES-001 cancelada correctamente.
+2026-11-22 19:55:43 [WARNING] No se pudo cancelar la reserva RES-001: La reserva RES-001 ya fue cancelada anteriormente.
